@@ -30,16 +30,49 @@
                 </div><!--input-search-->
             </div><!--search-->
                 
+            <div class="menu-mobile menu-mobile-icon">
+                <i class="fas fa-bars"></i>
+                <div class="menu-mobile-items">
+                    <a href="#">Home</a>
+                    <a href="#">TV Shows</a>
+                    <a href="#">Movies</a>
+                <div class="mobile-search">
+                    <div class="input-search">
+                        <i class="fas fa-search"></i>
+                        <input placeholder="Search..." type="text">
+                    </div><!--input-search-->
+                </div><!--search-->
+                </div><!--menu-mobile-items-->
+                
+            </div><!--menu-mobile-->
+
         </div><!--center-->
     </header>
 
     <div id="main" class="main">
         <div class="center">
-
-        </div>
-    </div>
+            <!--conteudo de banners e pôsteres gerados no JS-->
+        </div><!--center-->
+    </div><!--main-->
 
     <script src="https://kit.fontawesome.com/aa1d7fc9dd.js" crossorigin="anonymous"></script>
     <script src="./Scripts/script.js"></script>
+    <script>
+        // Evento de alterar o menu da página em modo mobile
+
+        let act = document.querySelector(".menu-mobile-icon");
+
+        act.addEventListener('click', () => {
+            let menuItems = document.querySelector('.menu-mobile-items');
+
+            if (menuItems.classList.contains('show')){
+                menuItems.classList.add('hide');
+                menuItems.classList.remove('show');
+            } else {
+                menuItems.classList.add('show');
+                menuItems.classList.remove('hide');
+            }
+        });
+    </script>
 </body>
 </html>
