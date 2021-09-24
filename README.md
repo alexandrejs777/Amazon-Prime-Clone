@@ -18,10 +18,10 @@
   <a href="https://alexandrejs777.github.io/Projeto_MusicPlayer/">https://alexandrejs777.github.io/Amazon-Prime-Clone/</a>
   
   Desktop: <br>
-  <img width="800px" src="(https://user-images.githubusercontent.com/85634326/134601954-7fc81440-6782-4a02-b3fd-62d6a01d1082.png)
+  <img width="800px" src="https://user-images.githubusercontent.com/85634326/134601954-7fc81440-6782-4a02-b3fd-62d6a01d1082.png
 ">
   
   Smartphone: <br>
-  <img width="400px" src="(https://user-images.githubusercontent.com/85634326/134601983-dd36cf25-e325-4687-8dd2-5d3e6df8ca8a.png)
+  <img width="400px" src="https://user-images.githubusercontent.com/85634326/134601983-dd36cf25-e325-4687-8dd2-5d3e6df8ca8a.png
 ">
   
