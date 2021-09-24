@@ -1,4 +1,4 @@
-# Amazon-Prime-Clone
+# Amazon Prime Clone
 
 <h2>Descrição</h2>
 
